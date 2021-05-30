@@ -16,7 +16,7 @@ The following folder structure is followed for both the folders
 For 'codes_gpt_embeddings' folder
 - dataset
 	- Flickr8k_Dataset
-		-** All the images in the datatset are in this folder
+		- ** All the images in the datatset are in this folder
 	- Flickr8k_text
 		- CrowdFlowerAnnotations.txt
 		- ExpertAnnotations.txt
