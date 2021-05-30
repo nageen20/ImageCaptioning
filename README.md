@@ -14,9 +14,9 @@ The folder 'codes_trained_embeddings' has the code for building the model with t
 The following folder structure is followed for both the folders
 
 For 'codes_gpt_embeddings' folder
-dataset
+- dataset
 	- Flickr8k_Dataset
-		* All the images in the datatset are in this folder
+		-** All the images in the datatset are in this folder
 	- Flickr8k_text
 		- CrowdFlowerAnnotations.txt
 		- ExpertAnnotations.txt
@@ -25,21 +25,21 @@ dataset
 		- Flickr_8k.trainImages.txt
 		- Flickr8k.lemma.token.txt
 		- Flickr8k.token.txt
-model_saves
-experiments
+- model_saves
+- experiments
 	- transformerTest.csv
 	- transformerValidation.csv
-bleu.py
-eval.py
-model.py
-requirements.txt
-train.py
-util.py
+- bleu.py
+- eval.py
+- model.py
+- requirements.txt
+- train.py
+- util.py
 
 For 'codes_trained_embeddings' folder
-dataset
+- dataset
 	- Flickr8k_Dataset
-		** All the images in the datatset are in this folder
+		- ** All the images in the datatset are in this folder
 	- Flickr8k_text
 		- CrowdFlowerAnnotations.txt
 		- ExpertAnnotations.txt
@@ -48,18 +48,18 @@ dataset
 		- Flickr_8k.trainImages.txt
 		- Flickr8k.lemma.token.txt
 		- Flickr8k.token.txt
-model_saves
-experiments
+- model_saves
+- experiments
 	- transformerTest.csv
 	- transformerValidation.csv
-bleu.py
-eval.py
-model.py
-requirements.txt
-train.py
-util.py
-vocab.txt
-vocab_builder.py
+- bleu.py
+- eval.py
+- model.py
+- requirements.txt
+- train.py
+- util.py
+- vocab.txt
+- vocab_builder.py
 
 ### Explanation of Files
 To train and test the models use, the train.py file. 
