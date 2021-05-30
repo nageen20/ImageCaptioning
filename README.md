@@ -62,16 +62,16 @@ For 'codes_trained_embeddings' folder
 - vocab_builder.py
 
 ### Explanation of Files
-To train and test the models use, the train.py file. 
-models.py file contains the models code.
-eval.py file contains the evaluation metrics code.
-util.py contains some helper functions needed to clean the data.
-model_saves folder contains the saved models from any test runs
-experiments folder contains the metrics for any test runs.
+To train and test the models use, the train.py file. </br>
+models.py file contains the models code. </br>
+eval.py file contains the evaluation metrics code. </br>
+util.py contains some helper functions needed to clean the data. </br>
+model_saves folder contains the saved models from any test runs. </br>
+experiments folder contains the metrics for any test runs. </br>
 
 The 'codes_trained_embeddings' contain two extra files.
-vocab.txt file contains all the vocabulary in the captions dataset.
-vocab_builder.py contains the code to build the above vocabulary.
+vocab.txt file contains all the vocabulary in the captions dataset. </br>
+vocab_builder.py contains the code to build the above vocabulary. </br>
 
 The Flickr8k dataset should be present inside the 'dataset' folder as mentioned in the above folder structure.
 The Flickr8k images and text zip files can be downloaded from the below links.
